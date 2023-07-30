@@ -8,7 +8,7 @@ package ce.examples.chapter6;
 	 //vlastní overloadnutá metoda, žádný problém
 	 public String getNumberOfGills() { return "4"; }
 	 //zde chce overridnout (stejný poèet args i název) ale jiný návratový typ
-	 public String getNumberOfGills(int input) { return "6"; }
+	 //public String getNumberOfGills(int input) { return "6"; }
 	 
 	 public static void main(String[] args) {
 		 System.out.println(new ClownFish().getNumberOfGills(-1));
