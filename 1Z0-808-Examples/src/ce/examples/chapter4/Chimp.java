@@ -6,11 +6,11 @@ import static ce.examples.chapter4.rope.Rope.*; //import static díky kterému mùž
 public class Chimp {
 	 public static void main(String[] args) {
 		 //standardní pøístup ke statické metodì a vytiskne "swing"
-		 Rope.swing();
-		 Rope rope = new Rope();
+		 RopeClimb.swing();
+		 RopeClimb rope = new RopeClimb();
 
 		 //java povoluje pøístup ke statické metodì skrze instanci
-		 new Rope().swing();
+		 new RopeClimb().swing();
 		 
 		 //toto by také bylo v poøádku
 		 //rope.swing();
