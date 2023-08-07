@@ -1,4 +1,4 @@
-package ce.examples.chapter6;
+package ce.examples.chapter5;
 
  interface Aquatic {
 	 public default int getNumberOfGills(int input) { return 2; }

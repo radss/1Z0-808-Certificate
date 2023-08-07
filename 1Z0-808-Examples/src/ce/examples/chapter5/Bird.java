@@ -1,4 +1,4 @@
-package ce.examples.chapter6;
+package ce.examples.chapter5;
 
 import java.util.ArrayList;
 import java.util.List;

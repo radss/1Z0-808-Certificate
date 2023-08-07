@@ -5,4 +5,4 @@
  * @author fajfr
  *
  */
-package ce.examples.chapter6;
+package ce.examples.chapter5;
