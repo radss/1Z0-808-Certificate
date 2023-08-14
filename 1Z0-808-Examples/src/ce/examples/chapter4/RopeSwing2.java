@@ -4,7 +4,7 @@ package ce.examples.chapter4;
  * Kolik je compiler fails??
  * static fianl promìnné musí být nastaveny pøesnì jednou a musí to být v deklaraci
    øádku nebo ve statickém inicializaèním bloku.
-   =>4 chyby
+   =>4 chyby.
  */
 public class RopeSwing2 {
 	private static final String leftRope;
