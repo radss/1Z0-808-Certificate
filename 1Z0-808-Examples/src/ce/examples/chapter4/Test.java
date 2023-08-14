@@ -26,7 +26,7 @@ public class Test {
 		t.print(s);
 		/*
 		 * mùže být autoboxed na Object takže se pøekryje metodou print(Object x)
-		 * lze Object b =  true;
+		 * lze Object b =  true
 		 */
 		t.print(true);
 		/*
