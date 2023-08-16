@@ -1,7 +1,7 @@
 package ce.whiz.chapter5;
 
 public class W5cv26 {
-
+	
 	public static void main(String[] args) {
 		int a [] = {3,2,1,0};
 		int y = a.length;

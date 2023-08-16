@@ -11,6 +11,10 @@ package ce.examples.chapter4;
 		 swing();
 		 //nekompiluje se protože ve statické metodì není povoleno volání NEstatické metody
 		 climb();
+		 /* V nestatickém bloku se mohou dávat statické promìné a metody ale nevykonají se (pokud napøíklad chceme
+		  * pøepsat statickou konstantu, tak není chyba compileru ale hodnota se nepøepíše)
+		    Naopak do statického incializaèního bloku nemùžeme dát nestatické metody/promìnné - chyba compileru.
+		  */
 	 }
 	 
 	 public static void main(String[] args) {
