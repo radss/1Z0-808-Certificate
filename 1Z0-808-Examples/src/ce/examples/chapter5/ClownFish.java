@@ -5,7 +5,7 @@ package ce.examples.chapter5;
  }
  
  public class ClownFish implements Aquatic {
-	 //vlastní overloadnutá metoda, žádný problém
+	 //vlastní metoda ClownFish (nikoliv overloadnutá metoda z Aquatic!), žádný problém
 	 public String getNumberOfGills() { return "4"; }
 	 //zde chce overridnout (stejný poèet args i název) ale jiný návratový typ
 	 //public String getNumberOfGills(int input) { return "6"; }
