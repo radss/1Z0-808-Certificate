@@ -9,10 +9,10 @@ public class Hello {
 		//true - klasika
 		if("Hello".equals(s)) System.out.println("one");
 		
-		//false
+		//false - provnává øetìzec s objektem pomocí ==
 		if(t==s) System.out.println("two");
 		
-		//true - hodnota objektu t = new String(s) kdy v promìnné s je "Hello"
+		//true - hodnota objektu t = new String(s) kdy v promìnné s je "Hello" s øetìzcem "Hello"
 		if(t.equals(s)) System.out.println("three");
 		
 		/*true - NEPOUŽÍVÁ equals, ale protože v obou pøípadech porovnává 

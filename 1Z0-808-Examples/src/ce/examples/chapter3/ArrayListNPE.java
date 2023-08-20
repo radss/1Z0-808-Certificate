@@ -16,6 +16,7 @@ public class ArrayListNPE {
 		 ages.add(null);
 		 
 		 //ale pøi procházení vylítne unchecked NPE (NPE je subclassou RuntimeException)
+		 //zde je problém!!!, kdyb bylo Integer age místo int age, tak je ok
 		 for (int age : ages) System.out.print(age);
 
 

@@ -8,6 +8,9 @@ public class FinallyTeorie {
 	 * 
 	 * Je vyžadováno aby mìl try{} bud catch nebo finally
 	 * 
+	 * Pokud se ale vyhodí exception, není odcyhceno do catch tak i když je finally blok který se provede
+	 * stejnì program spadne, protože exceptiona prostì není odchycena a program neví co dìlat.
+	 * 
 	 */
 
 }

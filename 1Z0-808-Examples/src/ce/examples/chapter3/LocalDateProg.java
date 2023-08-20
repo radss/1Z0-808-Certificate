@@ -13,6 +13,11 @@ public class LocalDateProg {
 		//NEPØIDAJÍ SE dny protože LocalDate stejnì jako ostatní datumy jsou immutable!!!
 		System.out.println(date.getYear() + " " + date.getMonth() + " "
 		+ date.getDayOfMonth());
+		
+		/* Aby se propsaly pøidání dnù/let musel by se kod zmìnit takot
+		 * 		date =date.plusDays(2);
+				date=date.plusYears(3);
+		 */
 
 	}
 

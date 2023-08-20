@@ -25,7 +25,7 @@ public class Spider extends Arthpood {
 	public void printName(float input) { System.out.print("Spider"); }
 	public static void main(String[] args) {
 		Spider spider = new Spider();		
-		spider.printName(4);
+		spider.printName(4.0f);
 		spider.printName(9);
 	}
 
