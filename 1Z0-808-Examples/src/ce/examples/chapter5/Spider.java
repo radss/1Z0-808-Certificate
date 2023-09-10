@@ -24,7 +24,7 @@ class Arthpood{
 /*
  * Spider dìdí a proto volá oba typy metody.
  * a)parent metodu printName(int input)
- * b)vlastní overloadnutou metodu printName(float input)
+ * b)vlastní overloadnutu metodu printName(float input)
  */
 public class Spider extends Arthpood {
 	public void printName(float input) { System.out.print("Spider"); }

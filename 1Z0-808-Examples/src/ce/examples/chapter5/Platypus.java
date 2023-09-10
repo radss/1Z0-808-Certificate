@@ -22,7 +22,7 @@ public class Platypus extends Mammal {
 	 * Taky ale není úplnì pravda. Pokud v Child definuju bezprametrický a parametrický
 	 * a v parent classe vùbec nic zkompiluje se!!! (takže nepotøebuje obraz konstruktorù v parent classe)
 	 * Pokud má ale tøeba child bezparametrický a parametrický a v parent classe je jen parametrický
-	 * tak musíme doplnit bezparametrický konstruktor i do parent classy!!!
+	 * tak musíme doplnit bezparametrický konstruktor i do parent classy!!
 	 */
 	public Platypus() {
 		System.out.print("Platypus");

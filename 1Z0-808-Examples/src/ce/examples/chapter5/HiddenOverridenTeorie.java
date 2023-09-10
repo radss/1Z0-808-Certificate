@@ -3,7 +3,7 @@ package ce.examples.chapter5;
 public class HiddenOverridenTeorie {
 	
 	/**
-	 * Které z následujícího mùže být pouze hidden a nikoliv overriden?
+	 * Které z následujícího mùže být pouze hidden a nikoliv overriden??
 	 * 
 	 * A. private instance methods	
 	 * 	=>OK, jsou vždy hidden v subclasse
