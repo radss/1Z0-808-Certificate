@@ -21,6 +21,11 @@ package ce.examples.chapter5;
 class Arthpood{
 	public void printName(int input) { System.out.print("Arthropod"); }
 }
+/*
+ * Spider dìdí a proto volá oba typy metody.
+ * a)parent metodu printName(int input)
+ * b)vlastní overloadnutou metodu printName(float input)
+ */
 public class Spider extends Arthpood {
 	public void printName(float input) { System.out.print("Spider"); }
 	public static void main(String[] args) {

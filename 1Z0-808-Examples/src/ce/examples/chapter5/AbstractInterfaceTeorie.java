@@ -6,7 +6,7 @@ public class AbstractInterfaceTeorie {
   * b) abstract classy i interfacy mohou používat extends keyword
   * c) abstract classy i interfacy mohou mít static metody
   * 
-  * d) abstract classy i interfacy být instanciovány napøímo ale skrze child classu
+  * d) abstract classy i interfacy NEMOHOU být instanciovány napøímo ale skrze child classu
   * (napø List list = new ArrayList()...)
   * 
   * Aèkoli instance objektu, který implementuje rozhraní, dìdí java.lang.Objekt,

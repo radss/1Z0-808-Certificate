@@ -4,7 +4,7 @@ public interface HasVocalCords {
 	public abstract void makeSound();
 }
 
-/*ok interfejs který dìdí z jiného interfejsu nemusí z tohod dìdìného implementovat metody
+/*ok interfejs který dìdí z jiného interfejsu NEMUSÍ z tohod dìdìného implementovat metody
  =>je to stejné jako abstract class A implements SomeI
  
  Každá tøída, která ale bude implementovat CanBark, automaticky dìdí jeho metody, 
