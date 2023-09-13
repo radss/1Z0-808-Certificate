@@ -10,7 +10,7 @@ public class ArrayListHex {
 	než písmena a øetìzce seøadí podle abecedy. Tím je 30 pøed 8. Binární vyhledávání
 	správnì najde 8 na indexu 2 a 3A na indexu 1. Nemùže najít 4F, ale všimne si, že by mìlo
 	být na indexu 2. Pokud položka není nalezena, pravidlo je negovat tento index a odeèíst 1.
-	Dostaneme tedy –2–1, což je –3. Test
+	Dostaneme tedy –2–1, což je –3.
  */
 	public static void main(String[] args) {
 		List<String> hex = Arrays.asList("30", "8", "3A", "FF");
